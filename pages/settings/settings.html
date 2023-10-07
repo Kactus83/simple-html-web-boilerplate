@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../styles/theme-colors.css">
-    <link rel="stylesheet" href="../../styles/theme.css">
-    <link rel="stylesheet" href="../../styles/global.css">
-    <link rel="stylesheet" href="../../styles/components.css">
-    <title>Theming Example</title>
-</head>
-<body>
-    <h1>Welcome to the Themed Site</h1>
-    <p>Select your theme:</p>
-    <button onclick="setTheme('dark')">Dark</button>
-    <button onclick="setTheme('light')">Light</button>
-
-    <p>Select your color:</p>
-    <button onclick="setColor('yellow')">Yellow</button>
-    <button onclick="setColor('green')">Green</button>
-    <button onclick="setColor('blue')">Blue</button>
-    <button onclick="setColor('red')">Red</button>
-    <button onclick="setColor('purple')">Purple</button>
-
-    <script src="settings.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../styles/theme-colors.css">
+        <link rel="stylesheet" href="../../styles/theme.css">
+        <link rel="stylesheet" href="../../styles/global.css">
+        <link rel="stylesheet" href="../../styles/components.css">
+        <link rel="stylesheet" href="./settings.css">
+        <title>Theming Example</title>
+    </head>
+    <body>
+        <div class="theme-div" style="background-color: var(--tertiary-color-dark);">
+            <div class="theme-div" style="background-color: var(--tertiary-color);">
+                <div class="theme-div" style="background-color: var(--tertiary-color-accent);">
+                    <div class="theme-div" style="background-color: var(--tertiary-color-pale);">
+                        <div class="theme-div" style="background-color: var(--secondary-color-dark);">
+                            <div class="theme-div" style="background-color: var(--secondary-color);">
+                                <div class="theme-div" style="background-color: var(--secondary-color-accent);">
+                                    <div class="theme-div" style="background-color: var(--secondary-color-pale);">
+                                        <div class="theme-div" style="background-color: var(--primary-color-dark);">
+                                            <div class="settings-div">
+                                                <h1>Welcome to the Themed Site</h1>
+                                                <p>Select your theme:</p>
+                                                <button onclick="setTheme('dark')">Dark</button>
+                                                <button onclick="setTheme('light')">Light</button>
+        
+                                                <p>Select your color:</p>
+                                                <button onclick="setColor('yellow')">Yellow</button>
+                                                <button onclick="setColor('green')">Green</button>
+                                                <button onclick="setColor('blue')">Blue</button>
+                                                <button onclick="setColor('red')">Red</button>
+                                                <button onclick="setColor('purple')">Purple</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="settings.js"></script>
+    </body>
+    
 </html>
