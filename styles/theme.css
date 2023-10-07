@@ -1,0 +1,32 @@
+/* 
+*   Themes Customization 
+*/
+
+.dark-theme {
+    --background-color-deep: #111;
+    --background-color: #222;
+    --background-color-medium: #333;
+    --background-color-light: #444;
+
+    --text-no-color: #fff;
+    --text-color-1: var(--secondary-color-accent);
+    --text-color-2: var(--primary-color-dark);
+    --text-color-3: var(--primary-color-accent);
+    --text-color-4: var(--primary-color-pale);
+
+}
+
+.light-theme {
+    --background-color-deep: #eee;
+    --background-color: #ddd;
+    --background-color-medium: #ccc;
+    --background-color-light: #bbb;
+
+    --text-no-color: #000;
+    --text-color-1: var(--secondary-color-dark);
+    --text-color-2: var(--primary-color-dark);
+    --text-color-3: var(--primary-color);
+    --text-color-4: var(--primary-color-accent);
+
+}
+

@@ -1,26 +1,4 @@
 /* 
-*   Themes Customization 
-*/
-
-.dark-theme {
-    --background-color-deep: #111;
-    --background-color: #222;
-    --background-color-medium: #333;
-    --background-color-light: #444;
-
-    --text-color: #fff;
-}
-
-.light-theme {
-    --background-color-deep: #eee;
-    --background-color: #ddd;
-    --background-color-medium: #ccc;
-    --background-color-light: #bbb;
-
-    --text-color: #000;
-}
-
-/* 
 *   Themes Colors Customization 
 */
 
