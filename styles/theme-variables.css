@@ -1,0 +1,116 @@
+/* 
+*   Themes Customization 
+*/
+
+.dark-theme {
+    --background-color-deep: #111;
+    --background-color: #222;
+    --background-color-medium: #333;
+    --background-color-light: #444;
+
+    --text-color: #fff;
+}
+
+.light-theme {
+    --background-color-deep: #eee;
+    --background-color: #ddd;
+    --background-color-medium: #ccc;
+    --background-color-light: #bbb;
+
+    --text-color: #000;
+}
+
+/* 
+*   Themes Colors Customization 
+*/
+
+
+/* Yellow Theme */
+.yellow-theme {
+    --primary-color-dark: #b38f00;
+    --primary-color: #ffc800;
+    --primary-color-accent: #ffdb4d;
+    --primary-color-pale: #ffe47a;
+
+    --secondary-color-dark: #cc8500;
+    --secondary-color: #f69400;
+    --secondary-color-accent: #f7a64d;
+    --secondary-color-pale: #f8b97a;
+
+    --tertiary-color-dark: #996515;
+    --tertiary-color: #cc851a;
+    --tertiary-color-accent: #d79a5b;
+    --tertiary-color-pale: #e2b083;
+}
+
+/* Green Theme */
+.green-theme {
+    --primary-color-dark: #008a00;
+    --primary-color: #00d200;
+    --primary-color-accent: #33d933;
+    --primary-color-pale: #66e066;
+
+    --secondary-color-dark: #006500;
+    --secondary-color: #008e23;
+    --secondary-color-accent: #33a353;
+    --secondary-color-pale: #66b966;
+
+    --tertiary-color-dark: #004d00;
+    --tertiary-color: #007319;
+    --tertiary-color-accent: #33984d;
+    --tertiary-color-pale: #66b26b;
+}
+
+/* Blue Theme */
+.blue-theme {
+    --primary-color-dark: #155785;
+    --primary-color: #1c76c6;
+    --primary-color-accent: #4c8bd6;
+    --primary-color-pale: #7da6e6;
+
+    --secondary-color-dark: #0b356b;
+    --secondary-color: #0d47a1;
+    --secondary-color-accent: #3c66b2;
+    --secondary-color-pale: #6b85c3;
+
+    --tertiary-color-dark: #082e4f;
+    --tertiary-color: #0a3d6e;
+    --tertiary-color-accent: #3b5e8e;
+    --tertiary-color-pale: #6b7fae;
+}
+
+/* Red Theme */
+.red-theme {
+    --primary-color-dark: #9a0706;
+    --primary-color: #bc0b08;
+    --primary-color-accent: #e60d0d;
+    --primary-color-pale: #ff4949;
+
+    --secondary-color-dark: #9a1e16;
+    --secondary-color: #a21300;
+    --secondary-color-accent: #c23221;
+    --secondary-color-pale: #e55251;
+
+    --tertiary-color-dark: #771212;
+    --tertiary-color: #a21313;
+    --tertiary-color-accent: #c24444;
+    --tertiary-color-pale: #e57575;
+}
+
+/* Purple Theme */
+.purple-theme {
+    --primary-color-dark: #8c37a3;
+    --primary-color: #ab47bc;
+    --primary-color-accent: #c667d4;
+    --primary-color-pale: #d88de5;
+
+    --secondary-color-dark: #5a147b;
+    --secondary-color: #4a148c;
+    --secondary-color-accent: #712eaa;
+    --secondary-color-pale: #9856c8;
+
+    --tertiary-color-dark: #6c1c91;
+    --tertiary-color: #841ca5;
+    --tertiary-color-accent: #9d4abc;
+    --tertiary-color-pale: #b678d3;
+}
