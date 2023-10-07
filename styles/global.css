@@ -19,3 +19,11 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+footer {
+    width: 100%;
+    background-color: var(--background-color-medium);
+    color: var(--text-no-color);
+    display: flex;
+    justify-content: center;
+}

@@ -1,5 +1,6 @@
 .theme-div {
-    width: 95%;
+    width: 92%;
+    max-width: 1200px;
     height: 75vh;
     margin: 5% auto;
     position: relative;
