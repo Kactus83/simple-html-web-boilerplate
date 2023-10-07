@@ -10,15 +10,15 @@
     --primary-color-accent: #ffdb4d;
     --primary-color-pale: #ffe47a;
 
-    --secondary-color-dark: #cc8500;
-    --secondary-color: #f69400;
-    --secondary-color-accent: #f7a64d;
-    --secondary-color-pale: #f8b97a;
+    --secondary-color-dark: #a56100;
+    --secondary-color: #cf8d00;
+    --secondary-color-accent: #ffb71b;
+    --secondary-color-pale: #ffca65;
 
-    --tertiary-color-dark: #996515;
-    --tertiary-color: #cc851a;
-    --tertiary-color-accent: #d79a5b;
-    --tertiary-color-pale: #e2b083;
+    --tertiary-color-dark: #8c5d01;
+    --tertiary-color: #bf8e2c;
+    --tertiary-color-accent: #e5b066;
+    --tertiary-color-pale: #f4ce94;
 }
 
 /* Green Theme */
@@ -28,15 +28,15 @@
     --primary-color-accent: #33d933;
     --primary-color-pale: #66e066;
 
-    --secondary-color-dark: #006500;
-    --secondary-color: #008e23;
-    --secondary-color-accent: #33a353;
-    --secondary-color-pale: #66b966;
+    --secondary-color-dark: #00574d;
+    --secondary-color: #007d6e;
+    --secondary-color-accent: #2ca58a;
+    --secondary-color-pale: #63c2a3;
 
-    --tertiary-color-dark: #004d00;
-    --tertiary-color: #007319;
-    --tertiary-color-accent: #33984d;
-    --tertiary-color-pale: #66b26b;
+    --tertiary-color-dark: #003d23;
+    --tertiary-color: #006142;
+    --tertiary-color-accent: #30855b;
+    --tertiary-color-pale: #68a085;
 }
 
 /* Blue Theme */
@@ -46,15 +46,15 @@
     --primary-color-accent: #4c8bd6;
     --primary-color-pale: #7da6e6;
 
-    --secondary-color-dark: #0b356b;
-    --secondary-color: #0d47a1;
-    --secondary-color-accent: #3c66b2;
-    --secondary-color-pale: #6b85c3;
+    --secondary-color-dark: #16334f;
+    --secondary-color: #204476;
+    --secondary-color-accent: #3b5c90;
+    --secondary-color-pale: #6379ab;
 
-    --tertiary-color-dark: #082e4f;
-    --tertiary-color: #0a3d6e;
-    --tertiary-color-accent: #3b5e8e;
-    --tertiary-color-pale: #6b7fae;
+    --tertiary-color-dark: #112740;
+    --tertiary-color: #1a3b61;
+    --tertiary-color-accent: #3c5982;
+    --tertiary-color-pale: #6878a2;
 }
 
 /* Red Theme */
@@ -64,15 +64,15 @@
     --primary-color-accent: #e60d0d;
     --primary-color-pale: #ff4949;
 
-    --secondary-color-dark: #9a1e16;
-    --secondary-color: #a21300;
-    --secondary-color-accent: #c23221;
-    --secondary-color-pale: #e55251;
+    --secondary-color-dark: #9a3007;
+    --secondary-color: #bf3c0b;
+    --secondary-color-accent: #e65713;
+    --secondary-color-pale: #ff7c3d;
 
-    --tertiary-color-dark: #771212;
-    --tertiary-color: #a21313;
-    --tertiary-color-accent: #c24444;
-    --tertiary-color-pale: #e57575;
+    --tertiary-color-dark: #8c4600;
+    --tertiary-color: #bf5f08;
+    --tertiary-color-accent: #ff7b13;
+    --tertiary-color-pale: #ff9d42;
 }
 
 /* Purple Theme */
@@ -82,13 +82,13 @@
     --primary-color-accent: #c667d4;
     --primary-color-pale: #d88de5;
 
-    --secondary-color-dark: #5a147b;
-    --secondary-color: #4a148c;
-    --secondary-color-accent: #712eaa;
-    --secondary-color-pale: #9856c8;
+    --secondary-color-dark: #621d7d;
+    --secondary-color: #7d2f99;
+    --secondary-color-accent: #9950b5;
+    --secondary-color-pale: #b677d2;
 
-    --tertiary-color-dark: #6c1c91;
-    --tertiary-color: #841ca5;
-    --tertiary-color-accent: #9d4abc;
-    --tertiary-color-pale: #b678d3;
+    --tertiary-color-dark: #50196a;
+    --tertiary-color: #6b2a85;
+    --tertiary-color-accent: #8a4aa5;
+    --tertiary-color-pale: #ab6bc7;
 }
