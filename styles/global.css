@@ -1,4 +1,21 @@
 body {
+    margin: 0;
     background-color: var(--background-color);
     color: var(--text-no-color);
+}
+
+header  {
+    width: 100%;
+    background-color: var(--background-color-medium);
+    color: var(--text-no-color);
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    background-color: var(--background-color-medium);
+    color: var(--text-no-color);
+    display: flex;
+    justify-content: center;
 }
