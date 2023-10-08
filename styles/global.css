@@ -27,3 +27,75 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+/* 
+* Scrollbar Customization
+*/
+
+/* 
+* For Webkit browsers like Chrome/Safari 
+*/
+
+/* Adjusting width of the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+/* Styling the scrollbar track (background where the thumb moves) */
+::-webkit-scrollbar-track {
+    background-color: var(--colored-background-2); 
+    border-radius: 10px; 
+}
+
+/* Styling the scrollbar thumb (movable part seen on the track) */
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color-dark); 
+    border-radius: 10px;
+    border: 3px solid var(--colored-background-2); 
+}
+
+/* Styling the scrollbar thumb upon hover, increasing visibility and interactivity */
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-color-accent); 
+}
+
+/* 
+* For Internet Explorer and Edge 
+*/
+
+/* Adjusting width of the scrollbar */
+body::-ms-scrollbar {
+    width: 12px;
+}
+
+/* Styling the scrollbar track */
+body::-ms-scrollbar-track {
+    background-color: var(--colored-background-2);
+}
+
+/* Styling the scrollbar thumb */
+body::-ms-scrollbar-thumb {
+    background-color: var(--primary-color-dark);
+    border-radius: 10px;
+}
+
+/* Adding a dynamic hover effect for the scrollbar thumb */
+body::-ms-scrollbar-thumb:hover {
+    background-color: var(--primary-color-accent);
+}
+
+/* 
+* For modern versions of Firefox 
+*/
+
+/* Styling the scrollbar for better visibility and consistency in the color scheme */
+body {
+    scrollbar-color: var(--primary-color-dark) var(--colored-background-2); 
+    scrollbar-width: thin; /* Keeping it streamlined and not overly thick */
+}
+
+/* Additional Considerations */
+/* You might want to add transitions for smooth color changes on hover */
+::-webkit-scrollbar-thumb {
+    transition: background-color 0.3s ease-in-out; 
+}
