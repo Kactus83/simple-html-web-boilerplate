@@ -64,12 +64,14 @@ footer {
 /* Adjusting width of the scrollbar */
 ::-webkit-scrollbar {
     width: 12px; 
+    z-index: 999;
 }
 
 /* Styling the scrollbar track (background where the thumb moves) */
 ::-webkit-scrollbar-track {
     background-color: var(--colored-background-2); 
     border-radius: 10px; 
+    z-index: 999;
 }
 
 /* Styling the scrollbar thumb (movable part seen on the track) */
@@ -77,11 +79,13 @@ footer {
     background-color: var(--primary-color-dark); 
     border-radius: 10px;
     border: 3px solid var(--colored-background-2); 
+    z-index: 999;
 }
 
 /* Styling the scrollbar thumb upon hover, increasing visibility and interactivity */
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--primary-color-accent); 
+    z-index: 999;
 }
 
 /* 
@@ -91,22 +95,27 @@ footer {
 /* Adjusting width of the scrollbar */
 body::-ms-scrollbar {
     width: 12px;
+    z-index: 999;
+    z-index: 999;
 }
 
 /* Styling the scrollbar track */
 body::-ms-scrollbar-track {
     background-color: var(--colored-background-2);
+    z-index: 999;
 }
 
 /* Styling the scrollbar thumb */
 body::-ms-scrollbar-thumb {
     background-color: var(--primary-color-dark);
     border-radius: 10px;
+    z-index: 999;
 }
 
 /* Adding a dynamic hover effect for the scrollbar thumb */
 body::-ms-scrollbar-thumb:hover {
     background-color: var(--primary-color-accent);
+    z-index: 999;
 }
 
 /* 
