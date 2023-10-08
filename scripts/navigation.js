@@ -17,4 +17,22 @@ document.addEventListener("DOMContentLoaded", function() {
     navigation.appendChild(btnSettings);
 
     document.getElementById("navigation").appendChild(navigation);
+
+    var bodyContent = document.querySelector('.body-content');
+    var header = document.getElementById("header");
+
+    window.addEventListener("scroll", function() {
+        var headerHeightInPx = header.getBoundingClientRect().height;
+        var navHeightInPx = navigation.getBoundingClientRect().height;
+
+        var scrollHeight = window.scrollY || window.scrollTop;
+
+        if (scrollHeight >= headerHeightInPx) {
+            navigation.classList.add("fixed");
+            bodyContent.style.marginTop = `${navHeightInPx}px`;
+        } else {
+            navigation.classList.remove("fixed");
+            bodyContent.style.marginTop = "0px";
+        }
+    });
 });

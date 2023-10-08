@@ -2,7 +2,8 @@
     width: 92%;
     max-width: 1200px;
     height: 75vh;
-    margin: 5% auto;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     border-radius: 95%;
     display: flex;
