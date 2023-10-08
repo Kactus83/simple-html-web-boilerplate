@@ -1,26 +1,28 @@
 /* Button Styling */
 button {
     padding: 12px 25px;
+    margin: 5px;
     border: none;
     border-radius: 25px;
-    background-color: var(--primary-color);
-    color: var(--text-no-color);
+    background-color: var(--colored-background-2);
+    color: var(--text-color-4);
     font-size: 16px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     outline: none;
 }
 
-.button:hover {
+button:hover {
     transform: scale(1.05);
+    color: var(--text-no-color);
     background-color: var(--primary-color-accent);
 }
 
-.button:active {
+button:active {
     transform: scale(0.95);
 }
 
-.button:focus {
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+button:focus {
+    box-shadow: 0 0 3px 0 var(--text-color-4);
 }
 

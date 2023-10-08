@@ -88,7 +88,7 @@ Here’s how the project is structured:
         <script src="../path_to_your_script.js"></script>
     </body>
     </html>
-
+    
     In the above HTML structure, JavaScript will dynamically create and insert the header, navigation, and footer elements within the designated `div` elements.
 
 
@@ -100,7 +100,7 @@ Here’s how the project is structured:
     - **Fork and Clone**: Fork this repository, clone it to your local machine and work on your changes.
     - **Pull Requests**: Ensure they are aimed towards the `main` branch.
     - **Issues**: For major changes, please open an issue to discuss what you would like to change.
-    
+
     Embrace collaboration and let’s refine this boilerplate for diverse projects! 🎉
 
 

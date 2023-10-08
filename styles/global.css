@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: var(--background-color);
+    background-color: var(--colored-background-1);
     color: var(--text-no-color);
 }
 
 header  {
     width: 100%;
-    background-color: var(--background-color-medium);
+    background-color: var(--colored-background-3);
     color: var(--text-no-color);
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ header  {
 
 nav {
     width: 100%;
-    background-color: var(--background-color-medium);
+    background-color: var(--colored-background-3);
     color: var(--text-no-color);
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ nav {
 
 footer {
     width: 100%;
-    background-color: var(--background-color-medium);
+    background-color: var(--colored-background-2);
     color: var(--text-no-color);
     display: flex;
     justify-content: center;

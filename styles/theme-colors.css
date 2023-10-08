@@ -5,9 +5,9 @@
 
 /* Yellow Theme */
 .yellow-theme {
-    --primary-color-dark: #b38f00;
-    --primary-color: #ffc800;
-    --primary-color-accent: #ffdb4d;
+    --primary-color-dark: #c08600;
+    --primary-color: #ffd900;
+    --primary-color-accent: #ffd220;
     --primary-color-pale: #ffe47a;
 
     --secondary-color-dark: #a56100;
@@ -19,6 +19,13 @@
     --tertiary-color: #bf8e2c;
     --tertiary-color-accent: #e5b066;
     --tertiary-color-pale: #f4ce94;
+    
+    --colored-background-dark: #413b2a;
+    --colored-background-mid-dark: #5d5235;
+    --colored-background-light: #fdfdba;
+    --colored-background-mid-light: #e4df80;
+    --colored-background-accent-dark: #322e1e;
+    --colored-background-accent-light: #f9f8e0;
 }
 
 /* Green Theme */
@@ -37,6 +44,13 @@
     --tertiary-color: #006142;
     --tertiary-color-accent: #30855b;
     --tertiary-color-pale: #68a085;
+
+    --colored-background-dark: #293d29;
+    --colored-background-mid-dark: #385638;
+    --colored-background-light: #b4fbb4;
+    --colored-background-mid-light: #86dd86;
+    --colored-background-accent-dark: #233431;
+    --colored-background-accent-light: #e0f9f5;
 }
 
 /* Blue Theme */
@@ -55,6 +69,13 @@
     --tertiary-color: #1a3b61;
     --tertiary-color-accent: #3c5982;
     --tertiary-color-pale: #6878a2;
+
+    --colored-background-dark: #2d364b;
+    --colored-background-mid-dark: #3a445f;
+    --colored-background-light: #acb6ff;
+    --colored-background-mid-light: #9b9bff;
+    --colored-background-accent-dark: #242734;
+    --colored-background-accent-light: #e0e2f9;
 }
 
 /* Red Theme */
@@ -73,6 +94,13 @@
     --tertiary-color: #bf5f08;
     --tertiary-color-accent: #ff7b13;
     --tertiary-color-pale: #ff9d42;
+
+    --colored-background-dark: #352525;
+    --colored-background-mid-dark: #493232;
+    --colored-background-light: #faa3a3;
+    --colored-background-mid-light: #ff6e6e;
+    --colored-background-accent-dark: #271c1c;
+    --colored-background-accent-light: #f9cccc;
 }
 
 /* Purple Theme */
@@ -91,4 +119,11 @@
     --tertiary-color: #6b2a85;
     --tertiary-color-accent: #8a4aa5;
     --tertiary-color-pale: #ab6bc7;
+    
+    --colored-background-dark: #37253f;
+    --colored-background-mid-dark: #543e5a;
+    --colored-background-light: #dbacf6;
+    --colored-background-mid-light: #f1a3fb;
+    --colored-background-accent-dark: #1d191f;
+    --colored-background-accent-light: #f9e1ff;
 }
