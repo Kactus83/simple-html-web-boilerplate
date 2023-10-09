@@ -1,0 +1,17 @@
+.light-theme {
+
+    title-color-primary: var(--primary-500);
+    title-color-secondary: var(--secondary-500);
+    title-color-tertiary: var(--tertiary-500);
+    
+    title-accent-color-primary: var(--primary-400);
+    title-accent-color-secondary: var(--secondary-400);
+    title-accent-color-tertiary: var(--tertiary-400);
+}
+
+.dark-theme {
+
+    title-color-primary: var(--primary-500);
+    title-color-secondary: var(--secondary-500);
+    title-color-tertiary: var(--tertiary-500);
+}
