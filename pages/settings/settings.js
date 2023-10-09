@@ -5,7 +5,7 @@ function setTheme(theme) {
 }
 
 function setColor(color) {
-    document.body.classList.remove("yellow-theme", "green-theme", "blue-theme", "red-theme", "purple-theme");
-    document.body.classList.add(color + "-theme");
-    localStorage.setItem("color", color + "-theme");
+    document.body.classList.remove("yellow-theme-colors", "green-theme-colors", "blue-theme-colors", "red-theme-colors", "purple-theme-colors");
+    document.body.classList.add(color + "-theme-colors");
+    localStorage.setItem("color", color + "-theme-colors");
 }

@@ -1,44 +1,113 @@
-/* 
-*   Themes Customization 
-*/
+.light-theme {
+
+    --text-no-color: var(--primary-dark-1);
+
+    /*
+    * Primary color set 
+    */
+
+    /* for Titles */
+    --primary-title-shadow-color: var(--primary-900);
+    --primary-title-color: var(--primary-800);
+    --primary-title-accent-color: var(--primary-700);
+    /* for Text content */
+    --primary-text-shadow-color: var(--primary-700);
+    --primary-text-color: var(--primary-600);
+    --primary-text-accent-color: var(--primary-500);
+    /* for Background */
+    --primary-background-shadow-color: var(--primary-100);
+    --primary-background-color: var(--primary-200);
+    --primary-background-accent-color: var(--primary-300);
+
+
+    /*
+    * Secondary color set 
+    */
+
+    /* for Titles */
+    --secondary-title-shadow-color: var(--secondary-900);
+    --secondary-title-color: var(--secondary-800);
+    --secondary-title-accent-color: var(--secondary-700);
+    /* for Text content */
+    --secondary-text-shadow-color: var(--secondary-700);
+    --secondary-text-color: var(--secondary-600);
+    --secondary-text-accent-color: var(--secondary-500);
+    /* for Background */
+    --secondary-background-shadow-color: var(--secondary-100);
+    --secondary-background-color: var(--secondary-200);
+    --secondary-background-accent-color: var(--secondary-300);
+
+    /*
+    * Tertiary color set 
+    */
+    
+    /* for Titles */
+    --tertiary-title-shadow-color: var(--tertiary-900);
+    --tertiary-title-color: var(--tertiary-800);
+    --tertiary-title-accent-color: var(--tertiary-700);
+    /* for Text content */
+    --tertiary-text-shadow-color: var(--tertiary-700);
+    --tertiary-text-color: var(--tertiary-600);
+    --tertiary-text-accent-color: var(--tertiary-500);
+    /* for Background */
+    --tertiary-background-shadow-color: var(--tertiary-100);
+    --tertiary-background-color: var(--tertiary-200);
+    --tertiary-background-accent-color: var(--tertiary-300);
+}
 
 .dark-theme {
-    --background-color-deep: #111;
-    --background-color: #222;
-    --background-color-medium: #333;
-    --background-color-light: #444;
 
-    --text-no-color: #fff;
-    --text-color-1: var(--secondary-color-accent);
-    --text-color-2: var(--primary-color-dark);
-    --text-color-3: var(--primary-color-accent);
-    --text-color-4: var(--primary-color-pale);
+    --text-no-color: var(--primary-100);
 
-    --colored-background-1: var(--colored-background-accent-dark);
-    --colored-background-2: var(--colored-background-dark);
-    --colored-background-3: var(--colored-background-mid-dark);
+    /*
+    * Primary color set 
+    */
 
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    /* for Titles */
+    --primary-title-shadow-color: var(--primary-600);
+    --primary-title-color: var(--primary-500);
+    --primary-title-accent-color: var(--primary-400);
+    /* for Text content */
+    --primary-text-shadow-color: var(--primary-800);
+    --primary-text-color: var(--primary-700);
+    --primary-text-accent-color: var(--primary-600);
+    /* for Background */
+    --primary-background-shadow-color: var(--primary-dark-4);
+    --primary-background-color: var(--primary-dark-3);
+    --primary-background-accent-color: var(--primary-dark-2);
 
+
+    /*
+    * Secondary color set 
+    */
+
+    /* for Titles */
+    --secondary-title-shadow-color: var(--secondary-600);
+    --secondary-title-color: var(--secondary-500);
+    --secondary-title-accent-color: var(--secondary-400);
+    /* for Text content */
+    --secondary-text-shadow-color: var(--secondary-800);
+    --secondary-text-color: var(--secondary-700);
+    --secondary-text-accent-color: var(--secondary-600);
+    /* for Background */
+    --secondary-background-shadow-color: var(--secondary-dark-4);
+    --secondary-background-color: var(--secondary-dark-3);
+    --secondary-background-accent-color: var(--secondary-dark-2);
+
+    /*
+    * Tertiary color set 
+    */
+    
+    /* for Titles */
+    --tertiary-title-shadow-color: var(--tertiary-600);
+    --tertiary-title-color: var(--tertiary-500);
+    --tertiary-title-accent-color: var(--tertiary-400);
+    /* for Text content */
+    --tertiary-text-shadow-color: var(--tertiary-800);
+    --tertiary-text-color: var(--tertiary-700);
+    --tertiary-text-accent-color: var(--tertiary-600);
+    /* for Background */
+    --tertiary-background-shadow-color: var(--tertiary-dark-4);
+    --tertiary-background-color: var(--tertiary-dark-3);
+    --tertiary-background-accent-color: var(--tertiary-dark-2);
 }
-
-.light-theme {
-    --background-color-deep: #eee;
-    --background-color: #ddd;
-    --background-color-medium: #ccc;
-    --background-color-light: #bbb;
-
-    --text-no-color: #000;
-    --text-color-1: var(--primary-color-accent);
-    --text-color-2: var(--primary-color);
-    --text-color-3: var(--primary-color-dark);
-    --text-color-4: var(--secondary-color-dark);
-
-    --colored-background-1: var(--colored-background-accent-light);
-    --colored-background-2: var(--colored-background-light);
-    --colored-background-3: var(--colored-background-mid-light);
-
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-
-}
-

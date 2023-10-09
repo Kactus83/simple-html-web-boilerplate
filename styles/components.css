@@ -4,8 +4,8 @@ button {
     margin: 5px;
     border: none;
     border-radius: 25px;
-    background-color: var(--colored-background-2);
-    color: var(--text-color-4);
+    background-color: var(--primary-background-color);
+    color: var(--primary-title-color);
     font-size: 16px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -15,7 +15,7 @@ button {
 button:hover {
     transform: scale(1.05);
     color: var(--text-no-color);
-    background-color: var(--primary-color-accent);
+    background-color: var(--primary-title-accent-color);
 }
 
 button:active {
@@ -23,6 +23,6 @@ button:active {
 }
 
 button:focus {
-    box-shadow: 0 0 3px 0 var(--text-color-4);
+    box-shadow: 0 0 3px 0 var(--primary-title-color);
 }
 

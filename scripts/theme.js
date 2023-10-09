@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const savedColor = localStorage.getItem("color");
 
     if(savedColor) {
-        document.body.classList.remove("yellow-theme", "green-theme", "blue-theme", "red-theme", "purple-theme");
+        document.body.classList.remove("yellow-theme-colors", "green-theme-colors", "blue-theme-colors", "red-theme-colors", "purple-theme-colors");
         document.body.classList.add(savedColor);
     }
 
