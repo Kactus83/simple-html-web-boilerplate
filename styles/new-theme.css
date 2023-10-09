@@ -1,17 +1,33 @@
 .light-theme {
+    primary-title-color: var(--primary-500);
+    primary-title-accent-color: var(--primary-400);
+    primary-text-color: var(--primary-700);
+    primary-text-accent-color: var(--primary-600);
 
-    title-color-primary: var(--primary-500);
-    title-color-secondary: var(--secondary-500);
-    title-color-tertiary: var(--tertiary-500);
-    
-    title-accent-color-primary: var(--primary-400);
-    title-accent-color-secondary: var(--secondary-400);
-    title-accent-color-tertiary: var(--tertiary-400);
+    secondary-title-color: var(--secondary-500);
+    secondary-title-accent-color: var(--secondary-400);
+    secondary-text-color: var(--secondary-700);
+    secondary-text-accent-color: var(--secondary-600);
+
+    tertiary-title-color: var(--tertiary-500);
+    tertiary-title-accent-color: var(--tertiary-400);
+    tertiary-text-color: var(--tertiary-700);
+    tertiary-text-accent-color: var(--tertiary-600);
 }
 
 .dark-theme {
+    primary-title-color: var(--primary-500);
+    primary-title-accent-color: var(--primary-400);
+    primary-text-color: var(--primary-700);
+    primary-text-accent-color: var(--primary-600);
 
-    title-color-primary: var(--primary-500);
-    title-color-secondary: var(--secondary-500);
-    title-color-tertiary: var(--tertiary-500);
+    secondary-title-color: var(--secondary-500);
+    secondary-title-accent-color: var(--secondary-400);
+    secondary-text-color: var(--secondary-700);
+    secondary-text-accent-color: var(--secondary-600);
+
+    tertiary-title-color: var(--tertiary-500);
+    tertiary-title-accent-color: var(--tertiary-400);
+    tertiary-text-color: var(--tertiary-700);
+    tertiary-text-accent-color: var(--tertiary-600);
 }
