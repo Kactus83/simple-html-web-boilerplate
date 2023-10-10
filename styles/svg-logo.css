@@ -31,7 +31,7 @@
 }
 
 .svg-logo:hover .path-star-stroke {
-    animation: pathStarStrokeHoverAnimation 1.5s ease-in-out forwards;
+    animation: pathStarStrokeHoverAnimation 2s ease-in-out forwards;
 }
 
 @keyframes pathSvgHoverAnimation {
@@ -55,9 +55,15 @@
 @keyframes pathStarHoverAnimation {
     0% {
         fill: var(--tertiary-text-color);
+        scale: 1;
+    }
+    75% {
+        fill: var(--tertiary-background-accent-color);
+        scale: 0.5;
     }
     100% {
-        fill: var(--tertiary-background-shadow-color);
+        fill: var(--tertiary-title-accent-color);
+        scale: 1;
     }
 }
 
@@ -65,7 +71,10 @@
     0% {
         stroke: var(--tertiary-background-color);
     }
+    75% {
+        stroke: var(--tertiary-background-shadow-color);
+    }
     100% {
-        stroke: var(--tertiary-background-accent-color);
+        stroke: var(--tertiary-text-accent-color);
     }
 }
