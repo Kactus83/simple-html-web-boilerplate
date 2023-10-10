@@ -13,8 +13,15 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "../settings/settings.html";
     };
 
+    var btnGallery = document.createElement("button");
+    btnGallery.innerText = "Gallery";
+    btnGallery.onclick = function() {
+        window.location.href = "../gallery/gallery.html";
+    };
+
     navigation.appendChild(btnHome);
     navigation.appendChild(btnSettings);
+    navigation.appendChild(btnGallery);
 
     document.getElementById("navigation").appendChild(navigation);
 

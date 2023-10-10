@@ -37,6 +37,7 @@ nav.fixed {
 .body-content {
     margin-top: 0;
     height: 100%;
+    display: flex;
     flex-grow: 1;
     overflow-y: auto;
 }

@@ -1,0 +1,124 @@
+.custom-container {
+    width: 100%;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.left-column, .right-column {
+    margin: 1%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-column {
+    width: 25%;
+    justify-content: space-between;
+}
+
+.right-column {
+    width: 75%;
+
+}
+
+.flex-children-top, .flex-children-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+}
+
+.flex-children-top {
+    align-items: flex-start;
+}
+
+.flex-children-bottom {
+    align-items: flex-end;
+}
+
+.big-box, .medium-box, .small-box {
+    padding: 1%;
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.5s;
+}
+
+.big-box:hover, .medium-box:hover, .small-box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.animated-box:hover {
+    animation: lighting-background 1s forwards;
+}
+
+.big-box {
+    background-color: var(--primary-background-accent-color);
+    width: 90%;
+    height: 47%;
+}
+
+
+.medium-box {
+    background-color: var(--primary-background-color);
+    width: 60%;
+    height: 90%;
+}
+
+.small-box {
+    background-color: var(--primary-background-color);
+    width: 30%;
+    height: 90%;
+}
+
+@keyframes lighting-background {
+    0% {
+        background-color: var(--primary-background-color);
+    }
+    50% {
+        background-color: var(--primary-background-accent-color);
+    }
+    100% {
+        background-color: var(--primary-background-color);
+    }
+}
+    
+
+@media only screen and (max-width: 768px) {
+    .custom-container {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+    }
+
+    .right-column {
+        width: 100%;
+        background-color: var(--primary-background-accent-color);
+    }
+
+    .left-column {
+        width: 100%;
+        background-color: var(--primary-background-color);
+    }
+
+    .big-box, .medium-box, .small-box {
+        width: 90%;
+        height: auto;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .flex-children-top, .flex-children-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+}
