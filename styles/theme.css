@@ -1,3 +1,7 @@
+/* 
+* Light & Dark theme color set
+*/
+
 .light-theme {
 
     --text-no-color: var(--primary-dark-1);
@@ -111,3 +115,4 @@
     --tertiary-background-color: var(--tertiary-dark-3);
     --tertiary-background-accent-color: var(--tertiary-dark-2);
 }
+
