@@ -60,19 +60,35 @@
 }
 
 .small-card {
-    flex-basis: calc(50% - 20px);  /* Si vous souhaitez que 2 cartes soient sur une ligne, en supposant une marge de 10px de chaque côté */
-    /* ... vos autres styles ... */
+        flex-basis: calc(50% - 20px);  /* 90% width for small cards */
+        /* ... your other styles ... */
 }
 
 .medium-card {
-    flex-basis: calc(33.333% - 20px); /* Pour 3 cartes par ligne */
-    /* ... vos autres styles ... */
+        flex-basis: calc(33.333% - 20px); /* 50% width for medium cards */
+        /* ... your other styles ... */
 }
 
 .big-card {
-    flex-basis: calc(25% - 20px); /* Pour 4 cartes par ligne */
-    /* ... vos autres styles ... */
+        flex-basis: calc(25% - 20px); /* 50% width for large cards */
+        /* ... your other styles ... */
 }
+
+@media only screen and (max-width: 768px) {
+    /* For screens larger than 768px */
+    .small-card {
+        flex-basis: calc(90% - 20px);  /* 50% width for small cards */
+    }
+    
+    .medium-card {
+        flex-basis: calc(50% - 20px); /* 33.333% width for medium cards */
+    }
+    
+    .big-card {
+        flex-basis: calc(50% - 20px); /* 25% width for large cards */
+    }
+}
+
 
 .small-card, .medium-card, .big-card {
     margin: 10px;
