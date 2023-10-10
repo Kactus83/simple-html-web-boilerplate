@@ -1,0 +1,71 @@
+.path-svg {
+    fill: var(--primary-title-color);
+}
+
+.path-base {
+    fill: var(--primary-background-shadow-color);
+}
+
+.path-star {
+    fill: var(--tertiary-text-color);
+}
+
+.path-star-stroke {
+    stroke: var(--tertiary-background-color)
+}
+
+.svg-logo {
+
+}
+
+.svg-logo:hover .path-svg {
+    animation: pathSvgHoverAnimation 0.5s ease-in-out forwards;
+}
+
+.svg-logo:hover .path-base {
+    animation: pathBaseHoverAnimation 1s ease-in-out forwards;
+}
+
+.svg-logo:hover .path-star {
+    animation: pathStarHoverAnimation 2s ease-in-out forwards;
+}
+
+.svg-logo:hover .path-star-stroke {
+    animation: pathStarStrokeHoverAnimation 1.5s ease-in-out forwards;
+}
+
+@keyframes pathSvgHoverAnimation {
+    0% {
+        fill: var(--primary-title-color);
+    }
+    100% {
+        fill: transparent;
+    }
+}
+
+@keyframes pathBaseHoverAnimation {
+    0% {
+        fill: var(--tertiary-text-color);
+    }
+    100% {
+        fill: transparent;
+    }
+}
+
+@keyframes pathStarHoverAnimation {
+    0% {
+        fill: var(--tertiary-text-color);
+    }
+    100% {
+        fill: var(--tertiary-background-shadow-color);
+    }
+}
+
+@keyframes pathStarStrokeHoverAnimation {
+    0% {
+        stroke: var(--tertiary-background-color);
+    }
+    100% {
+        stroke: var(--tertiary-background-accent-color);
+    }
+}
