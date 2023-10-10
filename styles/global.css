@@ -37,8 +37,6 @@ nav.fixed {
 .body-content {
     margin-top: 0;
     height: 100%;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
     flex-grow: 1;
     overflow-y: auto;
 }

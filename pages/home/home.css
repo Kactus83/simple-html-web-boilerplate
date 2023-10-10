@@ -1,0 +1,72 @@
+.primary-colored-div {
+    background-color: var(--primary-background-color);
+}
+
+.primary-colored-div-accent {
+    background-color: var(--primary-background-accent-color);
+}
+
+.secondary-colored-div {
+    background-color: var(--secondary-background-color);
+}
+
+.secondary-colored-div-accent {
+    background-color: var(--secondary-background-accent-color);
+}
+
+.tertiary-colored-div {
+    background-color: var(--tertiary-background-color);
+}
+
+.tertiary-colored-div-accent {
+    background-color: var(--tertiary-background-accent-color);
+}
+
+.primary-colored-div-content {
+    color: var(--primary-text-color);
+}
+
+.layout-one-raw-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2vh;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.medium-card {
+    max-width: 40%;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+}
+
+.full-size-card {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.full-width-centered-div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
